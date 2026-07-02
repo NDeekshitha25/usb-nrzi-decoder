@@ -1,0 +1,42 @@
+
+---
+
+## `.gitignore`
+
+For a Cocotb + Verilator/Icarus project:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Cocotb
+results.xml
+
+# Waveforms
+*.vcd
+*.fst
+*.wlf
+
+# Verilator
+obj_dir/
+*.o
+*.d
+
+# Simulation
+sim_build/
+*.log
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Linux
+*~
+
+# macOS
+.DS_Store
